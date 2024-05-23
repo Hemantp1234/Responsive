@@ -1,0 +1,185 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+/* First part */
+.container{
+    width: 100%;
+    background-color:#F3EED9;
+}
+
+.container-1
+{
+    width: 43%;
+    max-width: 1100px;
+    min-height: 660px;
+    margin: 0 auto;
+    background-color: #F3EED9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-1--data .heading-1
+{
+    font-size: 18px;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 0.2em;
+   
+}
+
+.container-1--data .heading-2
+{
+    font-size: 60px;
+    text-align: center;
+    color: #824936;
+    font-weight: 1000;
+    
+}
+
+.container-1--data
+{
+    margin-top: 10em;
+}
+
+
+/* Second part */
+
+.container-2
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-2--data .heading-1
+{
+    font-size: 36px;
+    color: #824936;
+    font-weight: 1000;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.container-2--data .heading-2
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    color: #222C2A;
+    line-height: 1.5em;
+    font-weight: 500;
+    gap: 5em;
+    
+}
+
+
+.container-2--data{
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+
+/* Third part */
+
+.container-3
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-3--data{
+    display: flex;
+    background-color: #222C2A;
+    justify-content: space-between;
+    
+}
+
+.heading-3--1
+{
+    width: 46%;
+    color: white;
+    font-size: 21px;
+    line-height: 1.5em;
+}
+
+
+.container3{
+    background-color: #222C2A;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.sunset_image{
+    width:55%;
+    align-self: flex-start;
+}
+
+.container-3--data{
+   padding-top: 8em;
+   padding-bottom: 8em;
+}
+
+/* Fourth part */
+.container-4
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-4--data{
+    display: flex;
+    background-color: #824936;
+    justify-content: space-between;
+    
+}
+
+.heading-4--1
+{
+    width: 46%;
+    color: white;
+    font-size: 21px;
+    line-height: 1.5em;
+}
+
+
+.container4{
+    background-color:#824936;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.sunset_image{
+    width:46%;
+    align-self: flex-start;
+}
+
+.container-4--data{
+   padding-top: 8em;
+   padding-bottom: 8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
